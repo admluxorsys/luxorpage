@@ -56,7 +56,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 import Script from 'next/script';
-import FirebaseAnalytics from '../../components/FirebaseAnalytics';
 
 export default async function LocaleLayout({
   children,
@@ -96,7 +95,6 @@ export default async function LocaleLayout({
         </Script>
       </head>
       <body className={`${montserrat.variable} ${outfit.variable} ${montserrat.className} bg-black text-white min-h-screen flex flex-col font-sans`}>
-        <FirebaseAnalytics />
         <WalletContextProvider>
           <NextIntlClientProvider messages={messages}>
             <Navbar />
