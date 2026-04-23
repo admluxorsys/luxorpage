@@ -14,7 +14,7 @@ export function GiantsSection() {
                 transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
                 className="w-full max-w-[1600px] mx-auto"
             >
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32 items-start">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-32 items-start">
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-normal text-white tracking-tight leading-[1.05] max-w-xl">
                         {t('giants.title')}
                     </h2>

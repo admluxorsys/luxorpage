@@ -108,8 +108,8 @@ export const Hero = ({ eyebrow, title, subtitle, ctaText, ctaLink }: HeroProps) 
                         {eyebrow}
                     </motion.span>
 
-                    {/* Main Title - Scaled for impact on mobile */}
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-white mb-6 md:mb-5 tracking-tight leading-[1.05] font-sans whitespace-pre-line group-hover:scale-[1.01] transition-transform duration-700">
+                    {/* Main Title - Scaled for impact on mobile and tablets */}
+                    <h1 className="text-4xl md:text-6xl lg:text-6xl font-medium text-white mb-6 md:mb-5 tracking-tight leading-[1.05] font-sans whitespace-pre-line group-hover:scale-[1.01] transition-transform duration-700">
                          {title.split('Luxor').map((part, i, arr) => (
                             <Fragment key={i}>
                                 {part}

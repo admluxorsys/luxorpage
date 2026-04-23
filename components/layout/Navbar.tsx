@@ -177,8 +177,8 @@ export default function Navbar() {
                             </Link>
                         </div>
 
-                        {/* Desktop Menu */}
-                        <div className="hidden xl:block">
+                        {/* Desktop Menu - Visible on iPads Landscape and larger */}
+                        <div className="hidden lg:block">
                             <div className="flex items-center space-x-1">
                                 {[
                                     { id: 'project', label: t('project') },
@@ -397,7 +397,8 @@ export default function Navbar() {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.2, ease: 'easeInOut' }}
-                        className="md:hidden fixed inset-0 h-[100dvh] bg-black overflow-y-auto overflow-x-hidden overscroll-none px-4 pt-24 pb-12 flex flex-col w-full"
+                        className="md:hidden fixed inset-0 h-[100dvh] bg-black overflow-y-auto overflow-x-hidden overscroll-none px-6 md:px-16 pt-24 pb-12 flex flex-col w-full"
+                    >
                     >
                         
                         <div className="flex flex-col gap-10 w-full max-w-full">
@@ -493,8 +494,8 @@ export default function Navbar() {
                                 </div>
                             </div>
 
-                            {/* Main Links - Accordion Style */}
-                            <div className="flex flex-col gap-6 pt-10 border-t border-white/5">
+                            {/* Main Links - Accordion Style - 2 columns on tablets */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-6 pt-10 border-t border-white/5">
                                 {[
                                     { label: t('home'), href: '/', id: 'home' },
                                     { label: t('project'), href: '#', id: 'project' },

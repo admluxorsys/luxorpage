@@ -149,7 +149,7 @@ export default function Footer() {
             <div className="max-w-[1400px] mx-auto px-6 md:px-12">
 
                 {/* 1. Header Row - Follow Us & Newsletter */}
-                <div className="flex flex-col lg:flex-row justify-between items-end gap-12 mb-20 pb-16 border-b border-white/5">
+                <div className="flex flex-col md:flex-row justify-between items-end gap-12 mb-20 pb-16 border-b border-white/5">
                     {/* Left side: Socials */}
                     <div className="flex items-center gap-8 mb-2 lg:mb-0">
                         <span className="text-white/30 font-sans text-[10px] tracking-[0.2em] uppercase font-bold">{tf('followUs')}</span>
