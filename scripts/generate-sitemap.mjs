@@ -1,7 +1,5 @@
 // scripts/generate-sitemap.mjs
 import fs from 'fs';
-import { initializeApp, cert, getApps } from 'firebase-admin/app';
-import { getFirestore } from 'firebase-admin/firestore';
 import dotenv from 'dotenv';
 
 dotenv.config({ path: '.env.local' });
@@ -23,29 +21,7 @@ const staticSections = [
 ];
 
 async function generate() {
-    console.log('--- Generating Sitemap ---');
-
-    // Attempt to initialize with whatever we have
-    if (!getApps().length) {
-        if (process.env.FIREBASE_PROJECT_ID) {
-            try {
-                let privateKey = process.env.FIREBASE_PRIVATE_KEY || '';
-                // The replacement logic that usually works for Vercel/Dotenv
-                privateKey = privateKey.replace(/\\n/g, '\n').replace(/"/g, '');
-
-                initializeApp({
-                    credential: cert({
-                        projectId: process.env.FIREBASE_PROJECT_ID,
-                        clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-                        privateKey: privateKey,
-                    }),
-                });
-                console.log('✅ Firebase Admin Initialized');
-            } catch (err) {
-                console.warn('⚠️ Firebase Init Warning:', err.message);
-            }
-        }
-    }
+    console.log('--- Generating Static Sitemap ---');
 
     const sitemapEntries = [];
     const baseUrl = 'https://byluxor.xyz';
@@ -58,31 +34,6 @@ async function generate() {
                 lastmod: new Date().toISOString().split('T')[0],
                 priority: section === '' ? '1.0' : '0.8',
             });
-        }
-    }
-
-    // 2. Dynamic Routes (Integrations)
-    if (getApps().length) {
-        try {
-            const db = getFirestore();
-            const snapshot = await db.collection('integrations').get();
-            
-            snapshot.forEach(doc => {
-                const data = doc.data();
-                const id = doc.id;
-                const updatedAt = data.updatedAt ? (data.updatedAt.toDate ? data.updatedAt.toDate() : new Date(data.updatedAt)) : new Date();
-                const lastmod = updatedAt.toISOString().split('T')[0];
-
-                for (const locale of locales) {
-                    sitemapEntries.push({
-                        loc: `${baseUrl}/${locale}/integrations/${id}`,
-                        lastmod: lastmod,
-                        priority: '0.6',
-                    });
-                }
-            });
-        } catch (error) {
-            console.error('❌ Firestore Fetch Error:', error.message);
         }
     }
 

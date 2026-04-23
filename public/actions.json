@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {
+      "pathPattern": "/**",
+      "apiPath": "https://byluxor.xyz/api/actions/donate"
+    }
+  ]
+}

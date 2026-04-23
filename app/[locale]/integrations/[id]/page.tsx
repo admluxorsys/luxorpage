@@ -1,27 +1,30 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { getDb } from '../../../../lib/firebase-admin';
 import { notFound } from 'next/navigation';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
-// Server Page
+const staticIntegrations = [
+    {
+        id: 'luxor-pay-pos',
+        title: 'Luxor Pay POS',
+        description: 'Next-generation point of sale system integrated with Solana Pay.',
+        imageUrl: '/images/token-dark.png'
+    },
+    {
+        id: 'intelligent-glasses-v1',
+        title: 'Intelligent Glasses',
+        description: 'Augmented reality glasses with real-time blockchain tracking.',
+        imageUrl: '/images/token-dark.png'
+    }
+];
+
 interface Props {
     params: Promise<{ id: string; locale: string }>;
 }
 
 async function getIntegration(id: string) {
-    const db = getDb();
-    if (!db) return null;
-    
-    try {
-        const doc = await db.collection('integrations').doc(id).get();
-        if (!doc.exists) return null;
-        return { id: doc.id, ...doc.data() as any };
-    } catch (error: any) {
-        console.error('❌ Firestore integration fetch error:', error.message);
-        return null;
-    }
+    return staticIntegrations.find(item => item.id === id) || null;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -30,9 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!data) return { title: 'Integration Not Found - By Luxor' };
 
-    const title = `${data.title || 'Integration'} - By Luxor`;
-    const description = data.description || 'Connecting your business with the Luxor ecosystem.';
-    const imageUrl = data.imageUrl || 'https://byluxor.com/images/token-dark.png';
+    const title = `${data.title} - By Luxor`;
+    const description = data.description;
+    const imageUrl = data.imageUrl;
 
     return {
         title,
@@ -58,19 +61,13 @@ export default async function Page({ params }: Props) {
 
     if (!data) notFound();
 
-    // JSON-LD Schema Markup
     const schema = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": data.title,
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        "description": data.description,
-        "offers": {
-            "@type": "Offer",
-            "price": data.price || "0",
-            "priceCurrency": "USD"
-        }
+        "description": data.description
     };
 
     return (
@@ -95,7 +92,7 @@ export default async function Page({ params }: Props) {
                     <div className="absolute -inset-1 bg-gradient-to-r from-[#a5bde0] to-white/20 rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
                     <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-black shadow-2xl">
                          <img 
-                            src={data.imageUrl || '/images/token-dark.png'} 
+                            src={data.imageUrl} 
                             alt={data.title} 
                             className="w-full h-auto object-cover transform transition duration-1000 group-hover:scale-105"
                          />

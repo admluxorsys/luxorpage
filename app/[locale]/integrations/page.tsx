@@ -1,26 +1,28 @@
 import React from 'react';
 import { getTranslations } from 'next-intl/server';
-import { getDb } from '../../../lib/firebase-admin';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
-async function getIntegrations() {
-    const db = getDb();
-    if (!db) return [];
-    
-    try {
-        const snapshot = await db.collection('integrations').get();
-        return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() as any }));
-    } catch (error: any) {
-        console.error('❌ Firestore integrations fetch error:', error.message);
-        return [];
+// Static integrations for an informative landing page
+const staticIntegrations = [
+    {
+        id: 'luxor-pay-pos',
+        title: 'Luxor Pay POS',
+        description: 'Next-generation point of sale system integrated with Solana Pay.',
+        imageUrl: '/images/token-dark.png'
+    },
+    {
+        id: 'intelligent-glasses-v1',
+        title: 'Intelligent Glasses',
+        description: 'Augmented reality glasses with real-time blockchain tracking.',
+        imageUrl: '/images/token-dark.png'
     }
-}
+];
 
 export default async function IntegrationsPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'IntegrationsPage' });
-    const integrations = await getIntegrations();
+    const integrations = staticIntegrations;
 
     return (
         <div className="min-h-screen bg-black flex flex-col items-center px-6 relative overflow-hidden font-sans pt-32 pb-24">
@@ -44,7 +46,7 @@ export default async function IntegrationsPage({ params }: { params: Promise<{ l
             <div className="max-w-7xl w-full relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {integrations.length === 0 ? (
                     <div className="col-span-full text-center py-20 border border-white/5 bg-white/5 rounded-3xl">
-                         <p className="text-white/40 uppercase tracking-widest text-sm">No active integrations found in Firestore.</p>
+                         <p className="text-white/40 uppercase tracking-widest text-sm">No active integrations found.</p>
                     </div>
                 ) : (
                     integrations.map((item: any) => (
