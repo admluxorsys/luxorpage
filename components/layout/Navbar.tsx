@@ -399,7 +399,6 @@ export default function Navbar() {
                         transition={{ duration: 0.2, ease: 'easeInOut' }}
                         className="md:hidden fixed inset-0 h-[100dvh] bg-black overflow-y-auto overflow-x-hidden overscroll-none px-6 md:px-16 pt-24 pb-12 flex flex-col w-full"
                     >
-                    >
                         
                         <div className="flex flex-col gap-10 w-full max-w-full">
                             {/* Stats Card */}
