@@ -1,0 +1,423 @@
+{
+    "HomePage": {
+        "title": "Bienvenido a la\nEconomía de Luxor",
+        "subtitle": "Luxor (LXR) impulsa la red Luxor como su motor de liquidez público. Diseñado para la utilidad, estabilidad y crecimiento directamente sobre Solana.",
+        "cta_main": "Entrar a la Bóveda",
+        "cta_secondary": "Leer el Documento Técnico",
+        "features": {
+            "reserve": {
+                "title": "Respaldo en el Mundo Real",
+                "description": "Luxor representa la liquidez en un vasto ecosistema asegurado por activos del mundo real y una gobernanza transparente en la cadena."
+            },
+            "liquidity": {
+                "title": "Motor de Liquidez",
+                "description": "Con un suministro de 2.025 Billones, LXR facilita transacciones fluidas y de alto volumen en todo el ecosistema."
+            },
+            "speed": {
+                "title": "Velocidad y Seguridad Solana",
+                "description": "Aprovechando el programa Token-2022 de Solana para transferencias seguras y confirmación en menos de un segundo."
+            }
+        },
+        "allocation": {
+            "title": "Asignación Transparente",
+            "description": "Nuestro modelo de distribución garantiza la sostenibilidad a largo plazo. La gran mayoría de los tokens se almacenan en la Bóveda Multisig de Squads para apoyar la estabilidad del mercado.",
+            "charts": {
+                "luxor_title": "Distribución de Luxor (LXR)",
+                "founder": "Asignación de Fundadores",
+                "founder_sub": "Adquisición a 4 años",
+                "operations": "Fondo de Operaciones",
+                "operations_sub": "Marketing y desarrollo",
+                "holding": "Holding del Ecosistema",
+                "holding_sub": "Recompensas y asociaciones",
+                "reserve": "Reserva Central",
+                "reserve_sub": "Respaldo de liquidez",
+                "personal": "Personal / Flotante",
+                "personal_sub": "Liquidez directa"
+            }
+        },
+        "eyebrow": "ECOSISTEMA EN SOLANA",
+        "innovation": {
+            "title": "¿Qué es Luxor exactamente?",
+            "subtitle": "Luxor (LXR) es el token de utilidad nativo del ecosistema Luxor. No es un activo pasivo; es una herramienta activa diseñada para quienes crean, emprenden y consumen en la nueva economía digital.",
+            "desc": "Al usar LXR, no solo posees un activo en Solana, obtienes superpoderes dentro de nuestra red:",
+            "items": [
+                {
+                    "title": "Descuentos Exclusivos",
+                    "desc": "Paga servicios de administración empresarial y personal con beneficios directos."
+                },
+                {
+                    "title": "Acceso a Experiencias",
+                    "desc": "Tu saldo LXR es tu entrada a eventos, herramientas avanzadas y funciones premium del ecosistema."
+                },
+                {
+                    "title": "Ahorro en Consumo",
+                    "desc": "Obtén beneficios en comercios aliados, desde cafeterías hasta tecnología, a través de nuestra pasarela de pagos."
+                },
+                {
+                    "title": "Gobernanza Activa",
+                    "desc": "Participa en el desarrollo de nuevas funciones. Tu voz ayuda a decidir hacia dónde crece el motor."
+                }
+            ],
+            "btn": "Ver la película"
+        },
+        "philosophy": {
+            "title": "Nuestra Filosofía: El Hemisferio de la Abundancia",
+            "subtitle": "Nacida en Salt Lake City, Luxor se alinea con los valores de innovación del corredor tecnológico del Oeste. Creemos que la abundancia no se espera, se crea.",
+            "items": [
+                {
+                    "title": "Sin Fronteras",
+                    "desc": "Una herramienta para el emprendedor en Estados Unidos, el profesional en Latinoamérica y cualquier persona en el continente americano que busque prosperar."
+                },
+                {
+                    "title": "Respaldo y Estabilidad",
+                    "desc": "Construido sobre la infraestructura ultra-rápida de Solana, Luxor integra la eficiencia del dólar digital para que la economía global llegue a cada rincón."
+                },
+                {
+                    "title": "Para Todas las Generaciones",
+                    "desc": "Desde los nativos digitales hasta quienes buscan modernizar sus negocios centenarios. Luxor es fácil, accesible y universal."
+                }
+            ]
+        },
+        "architecture": {
+            "title": "Arquitectura Funcional",
+            "subtitle": "En lugar de resaltar la escasez, resaltamos la predictibilidad para el usuario y el comercio.",
+            "items": [
+                {
+                    "title": "Capacidad de Red Definida",
+                    "desc": "Contamos con un volumen de unidades fijo para garantizar que el ecosistema siempre tenga el combustible necesario para operar sin inflación inesperada."
+                },
+                {
+                    "title": "Autonomía Programada",
+                    "desc": "LXR funciona bajo reglas de código abierto en Solana. Ningún ente central puede cambiar las reglas de uso, dándote total seguridad."
+                },
+                {
+                    "title": "Economía Circular",
+                    "desc": "El 100% de lo recaudado se utiliza para fortalecer la infraestructura técnica y asegurar que las herramientas sigan siendo rápidas y económicas."
+                }
+            ]
+        },
+        "vital": {
+            "title": "¿Por qué es vital hacer esto ahora?",
+            "desc": "El mundo se encuentra en un punto de inflexión. La tecnología ya no es una opción; es el lenguaje de la supervivencia. Mientras otras regiones se fragmentan, el Hemisferio Americano se erige como un faro de sinergia sin explotar. Durante años, la brecha entre el capital y el talento ha limitado nuestro potencial colectivo. Luxor está aquí para cerrar esa brecha, creando una infraestructura digital unificada desde Salt Lake City hasta los rincones más lejanos de las Américas.",
+            "btn": "Ver modelos",
+            "items": [
+                {
+                    "title": "Un Bloque Económico Unificado",
+                    "desc": "La Demografía es el Destino. Mientras otras potencias globales enfrentan el envejecimiento de la población y el estancamiento, las Américas pulsan con una energía joven y nativa tecnológica. Al alinear el modelo de innovación de EE. UU. con el talento de todo el hemisferio, no solo estamos construyendo una red: estamos construyendo el bloque económico más resiliente y dinámico del planeta."
+                },
+                {
+                    "title": "Estabilidad Hemisférica",
+                    "desc": "Seguridad a través de la Prosperidad. Un hemisferio próspero es un hemisferio seguro. Luxor facilita el flujo de utilidad y herramientas digitales a través de las fronteras, erradicando la falta de oportunidades que genera inestabilidad. Estamos reemplazando fronteras por puentes, asegurando que el 'Sueño Americano' del progreso tecnológico sea una realidad compartida para todos en nuestro hemisferio."
+                },
+                {
+                    "title": "La Era de la Abundancia",
+                    "desc": "Aprovechando la IA y la Robótica. Estamos en transición de una economía de escasez a una de abundancia. Luxor asegura que las Américas no solo sean testigos de la revolución de la IA, sino que la lideren. Desde Silicon Slopes hasta cada ciudad del continente, proporcionamos el motor de liquidez para la fuerza laboral calificada y las mentes creativas detrás de los algoritmos del mañana."
+                }
+            ]
+        },
+        "vision": {
+            "title": "Nuestra Visión",
+            "subtitle": "Un Futuro de Colaboración Sin Límites",
+            "desc1": "Estados Unidos ha demostrado que un ecosistema basado en la libertad y la innovación puede generar riqueza global con 350 millones de habitantes. En Luxor, planteamos una pregunta audaz: ¿Qué sería capaz de lograr este modelo si se integra con el potencial humano de los más de 650 millones de habitantes en Latinoamérica?",
+            "desc2": "No buscamos simplemente el lucro; buscamos la extensión de la prosperidad a todo el hemisferio. Queremos convertir a Latinoamérica en el socio estratégico definitivo, transformando una región de inmenso potencial en un motor de crecimiento que duplique las capacidades de la economía mundial. Imagine un continente donde el próximo unicornio tecnológico no nazca solo en Silicon Valley, sino también en las mentes conectadas de Medellín, Ciudad de México o Buenos Aires, operando bajo el mismo estándar de excelencia global.",
+            "btn": "Aprender más"
+        },
+        "giants": {
+            "title": "Alineados con los Gigantes del Mañana",
+            "desc": "Caminamos hacia la frontera de lo posible, inspirándonos en la visión de los líderes que hoy rediseñan nuestra especie:",
+            "items": [
+                {
+                    "name": "Elon Musk",
+                    "desc": "Su búsqueda de una humanidad interplanetaria nos enseña que no debemos limitarnos a fronteras terrestres.",
+                    "videoId": "IgifEgm1-e0"
+                },
+                {
+                    "name": "Perspectiva Económica",
+                    "desc": "Análisis profundo sobre las variables macroeconómicas y el impacto tecnológico global.",
+                    "videoId": "jJBvQdfz1Z0"
+                },
+                {
+                    "name": "Mark Zuckerberg",
+                    "desc": "Su enfoque en la conectividad global nos muestra que el mundo es una sola red.",
+                    "videoId": "gF12Xn3C-0c"
+                },
+                {
+                    "name": "Mercados & Estrategia",
+                    "desc": "Visión a futuro sobre los movimientos de capital inteligente.",
+                    "videoId": "_L_OOxgXCTk"
+                },
+                {
+                    "name": "Jensen Huang",
+                    "desc": "Trata de democratizar la IA para que cualquier humano sea tan productivo como una empresa entera.",
+                    "videoId": "hoDYYCyxMuE"
+                },
+                {
+                    "name": "Alejandro Salomón",
+                    "desc": "Emprendedor visionario analizando el futuro de los activos digitales y la innovación tecnológica.",
+                    "videoId": "ZWII5oAOt1Y"
+                }
+            ]
+        },
+        "brackets": {
+            "builders": {
+                "badge": "Builders & Freelancers",
+                "title": "Infraestructura de élite",
+                "subtitle": "Tu talento merece una infraestructura a su nivel.",
+                "btn": "Empezar a construir"
+            },
+            "merchants": {
+                "badge": "Merchants & Corporations",
+                "title": "Mercado Global",
+                "subtitle": "Transforma la manera en que tu empresa interactúa con el mundo.",
+                "btn": "Escalar ahora"
+            },
+            "customers": {
+                "badge": "Global Customers",
+                "title": "Acceso Premium",
+                "subtitle": "Acceso a la abundancia y al trato premium que mereces.",
+                "btn": "Únete a la élite"
+            }
+        },
+        "join": {
+            "title": "El futuro no se mira, se construye.",
+            "subtitle": "Únete a Luxor, porque Luxor eres tú.",
+            "btn": "Únete hoy"
+        },
+        "pillars": {
+            "title": "Nuestra Visión para las Américas",
+            "desc": "Estamos construyendo un futuro definido por la IA, la robótica avanzada y la utilidad descentralizada. Nuestra misión es desmantelar las barreras que han mantenido a las economías fragmentadas durante décadas. Somos el puente digital para un hemisferio que crea, innova y lidera.",
+            "items": [
+                {
+                    "title": "Norteamérica Fuerte y Unificada",
+                    "desc": "Fortificando el Liderazgo Global. Al fomentar una alianza tecnológica estratégica en todo el hemisferio, aseguramos que EE. UU. siga siendo el motor de innovación del mundo, respaldado por una cadena de talento y activos digitales unificados."
+                },
+                {
+                    "title": "El Gran Despertar Latinoamericano",
+                    "desc": "De los Recursos a la Innovación. Cambiamos el enfoque del continente de exportar materias primas a convertirse en el motor mundial y principal exportador de software, granjas de IA y soluciones de alta tecnología."
+                },
+                {
+                    "title": "Creación de Valor Exponencial",
+                    "desc": "La Abundancia como el Nuevo Estándar. Empoderamos a una nueva generación de constructores y visionarios. En la economía Luxor, ser multimillonario y crear valor masivo es la regla, no la excepción."
+                }
+            ]
+        },
+        "cta": {
+            "title": "¡Únete al Movimiento Luxor!",
+            "desc": "¿Eres de los que se quedan mirando cómo el futuro sucede, o de los que lo escriben? Luxor es el puente. Somos el catalizador para que el talento latino y el capital de innovación estadounidense converjan. Te invitamos a ser parte de esta nueva era.",
+            "btn_join": "Únete Hoy",
+            "btn_buy": "Ver la Oportunidad"
+        }
+    },
+    "LuxorPage": {
+        "header_eyebrow": "Parámetros del Ecosistema en Vivo",
+        "title": "Luxor",
+        "subtitle": "El núcleo inteligente de la red Luxor. Distribución transparente, seguridad auditada y un modelo de crecimiento perpetuo.",
+        "distribution_title": "Distribución de Tokens",
+        "distribution_subtitle": "Asignados en bóvedas soberanas.",
+        "fixed_supply": "Suministro Fijo",
+        "genesis_price": "Precio Génesis",
+        "stats_fees": "Tarifas del Protocolo",
+        "stats_fees_desc": "Recaudación y distribución on-chain totalmente automatizada vía Fee Collector.",
+        "stats_safety": "Núcleo de Seguridad",
+        "stats_consensus": "Consenso 3/6",
+        "stats_liquidity": "Liquidez",
+        "stats_locked": "Bloqueado 24M",
+        "stats_protocol": "Protocolo",
+        "stats_audited": "Auditado",
+        "stats_trace": "VER SOLSCAN",
+        "stats_cta_eyebrow": "¿Listo para explorar?",
+        "stats_cta_title": "Terminal de Jupiter",
+        "stats_burn_title": "Artículo 3: Tarifas",
+        "vaults": {
+            "reserve": "Bóveda de Reserva",
+            "reserve_desc": "Banco central, liberación manual máx. 1% mensual",
+            "vesting": "Holding Principal (Vesting)",
+            "vesting_desc": "Vesting lineal 24 meses, acantilado 6 meses",
+            "ops": "Fondo de Operaciones",
+            "ops_desc": "Infraestructura y desarrollo",
+            "founder_lock": "Fondo Bloqueado Equipo",
+            "founder_lock_desc": "Bloqueado por 18 meses",
+            "liquid": "Holding Principal (Líquido)",
+            "liquid_desc": "Disponible de inmediato para operaciones estratégicas",
+            "liquidity": "Liquidez Inicial (Raydium)",
+            "liquidity_desc": "Pool inicial (bloqueado 24 meses)",
+            "personal": "Fondo Personal Equipo",
+            "personal_desc": "Desbloqueado (gastos operativos)"
+        },
+        "fee_items": {
+            "xls": "Bóveda XLS",
+            "usdx": "Reserva USDX",
+            "founder": "Participación del Equipo"
+        }
+    },
+    "IntegrationsPage": {
+        "eyebrow": "Expansión del Ecosistema",
+        "title": "Integraciones",
+        "subtitle": "Próximamente.",
+        "description": "Expandiendo el horizonte de Luxor. Nuestras integraciones directas con los principales protocolos y soluciones automatizadas se encuentran en las etapas finales de verificación.",
+        "cta": "Volver al Núcleo"
+    },
+    "TeamPage": {
+        "title": "Transparencia & Equipo",
+        "subtitle": "Construido sobre la confianza, verificado por código. Priorizamos la seguridad y el cumplimiento legal.",
+        "legal_title": "Cumplimiento Legal",
+        "legal_genius": "GENIUS Act 2026: Total cumplimiento con las nuevas regulaciones de stablecoins y activos digitales.",
+        "legal_utility": "Token de Utilidad: $LXR está diseñado como un token de utilidad para la gobernanza y recompensas del ecosistema. NO es un valor (security).",
+        "legal_disclaimer": "Descargo de responsabilidad: Los criptoactivos son volátiles. Invierta con responsabilidad. Sin garantías de beneficio.",
+        "audit_title": "Auditorías & Contratos",
+        "view_solscan": "Ver en Solscan",
+        "view_reserves": "Ver Reservas",
+        "track_burns": "Rastrear Quemas",
+        "contributors_title": "Colaboradores Principales",
+        "founder": "Joseph (Fundador)",
+        "lead_role": "Desarrollador Principal & Estrategia",
+        "ops_lead": "Líder de Operaciones",
+        "ops_role": "Marketing & Alianzas",
+        "comm_manager": "Gerente de Comunidad",
+        "comm_role": "Redes Sociales & Soporte"
+    },
+    "RoadmapPage": {
+        "title": "Hoja de Ruta",
+        "subtitle": "Nuestro viaje para conectar Memes y Activos Reales.",
+        "p1_phase": "Fase 1: Cimientos",
+        "p1_title": "Lanzamiento de la Red Principal",
+        "p1_items": [
+            "Despliegue de Contrato Inteligente (Probado en Devnet)",
+            "Lanzamiento del Sitio Web V1",
+            "Configuración de Comunidad (Telegram/X)",
+            "Distribución Inicial de las 54 Billeteras"
+        ],
+        "p2_phase": "Fase 2: Concienciación",
+        "p2_title": "Marketing & Hype",
+        "p2_items": [
+            "Alianzas con Influencers",
+            "Concursos de Memes",
+            "Inyección de Liquidez en Raydium",
+            "Listado en DexScreener"
+        ],
+        "p3_phase": "Fase 3: Utilidad",
+        "p3_title": "La Válvula se Abre",
+        "p3_items": [
+            "Primera Adquisición de Propiedades",
+            "Activación del Mecanismo de Quema (1% Fee)",
+            "Panel de Tesorería en Vivo",
+            "Airdrops para Holders"
+        ],
+        "p4_phase": "Fase 4: Expansión",
+        "p4_title": "Crecimiento del Ecosistema",
+        "p4_items": [
+            "Formación de Entidad Legal (GENIUS Act)",
+            "Listados en CEX",
+            "Alianzas con Empresas de Bienes Raíces",
+            "Puentes Cross-chain"
+        ]
+    },
+    "Navbar": {
+        "home": "Inicio",
+        "luxor": "Luxor",
+        "roadmap": "Hoja de Ruta",
+        "team": "Equipo",
+        "community": "Comunidad",
+        "ecosystem": "Ecosistema",
+        "docs": "Documentación",
+        "audit": "Auditoría",
+        "tokenomics": "Tokenomics",
+        "buy": "Join today",
+        "chart": "Gráfica",
+        "utility": "Utilidad",
+        "project": "Proyecto",
+        "business": "Negocios",
+        "security": "Seguridad",
+        "onchain": "On-Chain",
+        "mega": {
+            "eco_title_1": "Nuestros Aliados",
+            "eco_desc_1": "Empresas que respaldan Luxor",
+            "eco_title_2": "Casos de Uso",
+            "eco_desc_2": "Utilidad real en el mundo",
+            "eco_title_3": "Mapa de Adopción",
+            "eco_desc_3": "Presencia global del proyecto",
+            "eco_title_4": "Prensa & Media",
+            "eco_desc_4": "Kit de marca y noticias",
+            "tok_title_1": "Distribución",
+            "tok_desc_1": "Asignación del suministro",
+            "tok_title_2": "Auditoría",
+            "tok_desc_2": "Certificados de seguridad",
+            "tok_title_3": "Liquidez",
+            "tok_desc_3": "Prueba de fondos bloqueados",
+            "tok_title_4": "Contrato",
+            "tok_desc_4": "Copiar dirección LXR",
+            "util_title_1": "Staking",
+            "util_desc_1": "Gana recompensas LXR",
+            "util_title_2": "Gobernanza",
+            "util_desc_2": "Vota en la DAO",
+            "util_title_3": "Explorador",
+            "util_desc_3": "Ver en Solscan",
+            "intro_desc": "Explora cómo Luxor está transformando la liquidez en el mundo real mediante tecnología blockchain avanzada.",
+            "title_project": "Proyecto Luxor",
+            "title_ecosystem": "Ecosistema Luxor",
+            "title_tokenomics": "Seguridad & Datos",
+            "title_utility": "Herramientas",
+            "title_business": "Negocios",
+            "title_security": "Confianza",
+            "title_onchain": "On-Chain"
+        },
+        "view_more": "Ver más detalles",
+        "coming_soon": "Próximamente Luxor te mostrará que tú también eres parte del futuro",
+        "github": "Github",
+        "github_desc": "Código de fuente abierta.",
+        "holders": "Holders (Orb)",
+        "holders_desc": "Datos de distribución de tokens.",
+        "contract_desc": "7Qm6...dth",
+        "certificates": "Certificados",
+        "certificates_desc": "Verificación de confianza.",
+        "contract_verified": "Contrato Verificado",
+        "contract_verified_desc": "Contrato inteligente seguro.",
+        "phantom_desc": "Billetera Solana.",
+        "jupiter_desc": "Comerciar LXR.",
+        "dex_desc": "Gráficas en tiempo real.",
+        "orb_desc": "Holders y Analítica.",
+        "solscan_desc": "Explorador de Solana."
+    },
+    "Common": {
+        "connectWallet": "Conectar Billetera",
+        "luxor_economy": "Economía de Luxor",
+        "dev_tag": "Ecosistema en Desarrollo",
+        "ca_copied": "¡Dirección del contrato copiada!"
+    },
+    "Footer": {
+        "followUs": "Síguenos",
+        "slogan_1": "Haciendo que",
+        "slogan_2": "LUXOR sea útil",
+        "slogan_3": "para todos",
+        "about": "Sobre Luxor",
+        "privacy": "Privacidad",
+        "terms": "Condiciones",
+        "copyright": "creado con amor",
+        "col_biz_title": "Negocios",
+        "col_biz_desc": "Acepta LUXOR en tu comercio y expande tus cobros.",
+        "col_tech_title": "Datos Técnicos",
+        "col_tech_desc": "Información del contrato y red de Solana.",
+        "col_sec_title": "Seguridad",
+        "col_sec_desc": "Compromiso con la transparencia.",
+        "col_project_title": "Proyecto",
+        "col_project_desc": "Conoce nuestra visión y equipo.",
+        "col_onchain_title": "Enlaces On-Chain",
+        "col_onchain_desc": "Monitorea Luxor en tiempo real.",
+        "link_holders": "Holders (Orb)",
+        "link_integra": "Integra Luxor Pay",
+        "link_verified": "Contrato Verificado",
+        "link_jupiter": "Jupiter (Swap)",
+        "link_certificates": "Certificados",
+        "accepted_in": "Aceptado en el ecosistema",
+        "newsletter_title": "Boletín",
+        "newsletter_desc": "Recibe actualizaciones exclusivas sobre la economía Luxor.",
+        "newsletter_placeholder": "Tu correo electrónico",
+        "newsletter_cta": "Suscribirse",
+        "link_autonomous": "Roosevelt AI",
+        "link_glasses": "Gafas Inteligentes"
+    },
+    "Metadata": {
+        "title": "Luxor (LXR) | The Intelligence of Value",
+        "description": "Visión General\nLuxor ($LXR) es un token de utilidad de nueva generación desplegado en la red Solana, diseñado para ser el motor económico de un ecosistema impulsado por Inteligencia Artificial. Concebido y estructurado meticulosamente durante todo el año 2025 (01/01/2025 - 31/12/2025), Luxor nace con la misión de fortalecer la economía del hemisferio occidental y consolidar a los Estados Unidos como la capital mundial de los activos digitales.\n\nTokenomics y Lanzamiento\nSuministro Total: 2.025 billones de $LXR (Cifra conmemorativa al año de su estructuración).\n\nUnidades Fraccionarias: Los centavos de Luxor se denominan LUX.\n\nLanzamiento Oficial de $LXR: El 1 de mayo de 2026, a la media noche, se activará la liquidez principal a través de los protocolos Meteora o Raydium.\nEcosistema Fraccionario (LUX): Los centavos de Luxor, denominados LUX, funcionan como un activo vinculado y sus iniciales de trading serán LUX. Para garantizar una distribución dinámica desde el primer momento, el lanzamiento de LUX se realizará el mismo día de la preventa mediante la plataforma Pump.fun, permitiendo un acceso inicial ágil a la economía del proyecto.\n\nTransparencia: Toda la hoja de ruta y los fundamentos técnicos están disponibles en nuestro repositorio público para auditoría de la comunidad.\n\nEcosistema de Utilidad y Productos\n$LXR no es solo una moneda; es la llave de acceso a una suite de productos tecnológicos desarrollados por las empresas patrocinadoras del proyecto:\n\nRoosevelt AI (IA): Un agente de Inteligencia Artificial autónomo integrado en Solana, capaz de administrar de forma independiente la vida personal y la gestión empresarial de alto nivel.\n\nHardware Inteligente: Desarrollo avanzado de gafas inteligentes con integración nativa al ecosistema Luxor.\n\nPasarela de Pagos Global: Una infraestructura financiera diseñada para transacciones instantáneas y seguras.\n\nEstos productos serán liberados de manera escalonada al alcanzarse hitos específicos de acumulación per cápita de $LXR en el mercado.\n\nCompromiso Continental\nLuxor está enfocado en el bienestar y la abundancia de todo el continente americano. Buscamos trazar un camino hacia el futuro tecnológico respetando la diversidad cultural de cada nación, desde el norte hasta el sur, promoviendo una soberanía financiera basada en la innovación y el desarrollo tecnológico del Occidente."
+    }
+}

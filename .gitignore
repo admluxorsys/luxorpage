@@ -44,12 +44,10 @@ secrets/
 !tsconfig.json
 !next.config.json
 !Anchor.toml
-!landing-page/messages/*.json
-!admin-dashboard/messages/*.json
-!landing-page/lib/idl/*.json
-!admin-dashboard/lib/idl/*.json
-!landing-page/vercel.json
-!landing-page/public/actions.json
+!messages/*.json
+!lib/idl/*.json
+!vercel.json
+!public/actions.json
 
 # Exclusion for specific folders that might contain json we WANT to keep
 # But since wallets/ are keys, we should BE CAREFUL.
