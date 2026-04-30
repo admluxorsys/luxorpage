@@ -230,19 +230,98 @@
         "stats_burn_title": "Article 3: Fees",
         "vaults": {
             "reserve": "Reserve Vault",
-            "reserve_desc": "Central bank, max manual releases 1% monthly",
-            "vesting": "Main Holding (Vesting)",
-            "vesting_desc": "24-month linear vesting, 6-month cliff",
-            "ops": "Operations Fund",
-            "ops_desc": "Infrastructure and development",
-            "founder_lock": "Founder Team Lock Fund",
-            "founder_lock_desc": "Locked for 18 months",
-            "liquid": "Main Holding (Liquid)",
-            "liquid_desc": "Immediately available for strategic operations",
-            "liquidity": "Initial Liquidity (Raydium)",
-            "liquidity_desc": "Initial pool (locked 24 months)",
-            "personal": "Founder Team Personal",
-            "personal_desc": "Unlocked (operational expenses)"
+            "reserve_desc": "Central bank for long-term project stability",
+            "investors": "Strategic Investors",
+            "investors_desc": "Allocated for institutional backing and growth",
+            "foundation": "Luxor Foundation",
+            "foundation_desc": "Ecosystem development and grants",
+            "ops_marketing": "Operations & Marketing",
+            "ops_marketing_desc": "Global outreach and platform maintenance",
+            "founder_lock": "Founder Team Lock",
+            "founder_lock_desc": "Locked for 24 months (2 years)",
+            "meteora": "Meteora Launch",
+            "meteora_desc": "Initial liquidity for market entry",
+            "airdrops": "Airdrops & Sales",
+            "airdrops_desc": "Community distribution and liquidity events",
+            "founder_ops": "Founder Ops & Travels",
+            "founder_ops_desc": "Operational movements and strategic travel"
+        },
+        "tech_specs": {
+            "title": "Token Launch Rules & Technical Specs",
+            "identity": {
+                "title": "Basic Identity",
+                "network": "Network",
+                "standard": "Standard",
+                "decimals": "Decimals",
+                "program_id": "Program ID",
+                "type": "Type",
+                "control": "Control"
+            },
+            "supply": {
+                "title": "Total Supply (Immutable)",
+                "total": "Total Supply",
+                "fixed_note": "Fixed and cannot be changed"
+            },
+            "excelsior": {
+                "title": "What is Excelsior?",
+                "subtitle": "Excelsior is the Smart Contract that controls the LXR token.",
+                "brain": "The brain of the LXR token",
+                "functions": [
+                    "Validate transactions",
+                    "Apply fees",
+                    "Distribute rewards",
+                    "Protect against bots",
+                    "Burn tokens",
+                    "Manage vesting",
+                    "Control access"
+                ]
+            },
+            "fees": {
+                "title": "Fee System (100% On-Chain)",
+                "rule1": "Rule #1: All LXR transactions have fees",
+                "rule2": "Rule #2: Fee Distribution (30/30/40 Split)",
+                "variable": "Variable Fee",
+                "current": "Current Fee",
+                "collector": "Fee Collector",
+                "split_xls": "XLS Vault (Support)",
+                "split_usdx": "USDX Reserve (Backing)",
+                "split_founder": "Founder Team (Ops)"
+            },
+            "usage": {
+                "title": "What can I do with LXR?",
+                "buy_sell": "Buy / Sell (DEX)",
+                "staking": "Staking (Passive Income)",
+                "swap": "Swap (Not Active)",
+                "rewards": "Receive Rewards",
+                "governance": "Governance (Future)"
+            },
+            "protections": {
+                "title": "Anti-Bot Protections (5 Layers)",
+                "layer1": "Layer 1: Atomic Execution & Bot Tax",
+                "layer1_desc": "Eliminates 70% of simple bots by requiring pool creation and first buy in the same transaction. Fails incur a 50% burn tax.",
+                "layer2": "Layer 2: Economic Scaling (7 Days)",
+                "layer2_phases": [
+                    { "name": "Phase 1 (0-24h)", "limit": "Max Wallet 0.5% | Max TX 0.2% | 60s Cooldown" },
+                    { "name": "Phase 2 (24-72h)", "limit": "Max Wallet 1% | Max TX 0.5% | 30s Cooldown" },
+                    { "name": "Phase 3 (72h-7d)", "limit": "Max Wallet 2% | Max TX 1% | 10s Cooldown" },
+                    { "name": "Phase 4 (7d+)", "limit": "No Limits" }
+                ],
+                "layer3": "Layer 3: Liquidity & Price (5 Mins)",
+                "layer3_sniper": "Sniper Tax: 99% → 0% linear descent over 5 minutes.",
+                "layer3_slippage": "Slippage Guard: 5% (0-24h) → 10% (24-72h) → 20% (72h-7d).",
+                "layer4": "Layer 4: User Verification",
+                "layer4_desc": "Whitelist (first 30m), .sol name verification, and Seeker Genesis NFT holder benefits.",
+                "layer5": "Layer 5: Active Monitoring",
+                "layer5_desc": "ML detection, Whale monitoring, and Manual Circuit Breaker for critical anomalies."
+            },
+            "economy": {
+                "title": "Tokenomics & Economy",
+                "inflation": "Inflation (2.5% every 5 years)",
+                "burning": "Burning (Manual & Automatic)",
+                "vesting_detail": "Vesting: 10% TGE, 6 months cliff, 24 months linear unlock.",
+                "multisig": "Security & Governance",
+                "multisig_desc": "All vaults are controlled by a Squads Multisig (3-of-6 consensus). No single entity can move funds without approval."
+            }
         },
         "fee_items": {
             "xls": "XLS Vault",
@@ -418,6 +497,6 @@
     },
     "Metadata": {
         "title": "Luxor (LXR) | The Intelligence of Value",
-        "description": "General Vision\nLuxor ($LXR) is a next-generation utility token deployed on the Solana network, designed to be the economic engine of an ecosystem driven by Artificial Intelligence. Conceived and structured meticulously throughout 2025 (01/01/2025 - 12/31/2025), Luxor is born with the mission to strengthen the economy of the Western Hemisphere and consolidate the United States as the global capital of digital assets.\n\nTokenomics and Launch\nTotal Supply: 2.025 billion $LXR (Commemorative figure to the year of its structuring).\n\nFractional Units: The cents of Luxor are called LUX.\n\nOfficial Launch of $LXR: On May 1, 2026, at midnight, the main liquidity will be activated through the Meteora or Raydium protocols.\nFractional Ecosystem (LUX): The cents of Luxor, called LUX, function as a pegged asset and their trading initials will be LUX. To ensure dynamic distribution from the start, the launch of LUX will take place on the same day as the presale via the Pump.fun platform, allowing agile initial access to the project's economy.\n\nTransparency: The entire roadmap and technical fundamentals are available in our public repository for community auditing.\n\nUtility Ecosystem and Products\n$LXR is not just a currency; it is the access key to a suite of technological products developed by the project's sponsoring companies:\n\nRoosevelt AI (AI): An autonomous Artificial Intelligence agent integrated into Solana, capable of independently managing personal life and high-level business management.\n\nSmart Hardware: Advanced development of smart glasses with native integration to the Luxor ecosystem.\n\nGlobal Payment Gateway: A financial infrastructure designed for instant and secure transactions.\n\nThese products will be released in phases upon reaching specific milestones of $LXR per capita accumulation in the market.\n\nContinental Commitment\nLuxor is focused on the well-being and abundance of the entire American continent. We seek to forge a path to the technological future while respecting the cultural diversity of each nation, from north to south, promoting financial sovereignty based on the innovation and technological development of the West."
+        "description": "General Vision\nLuxor ($LXR) is a next-generation utility token deployed on the Solana network, designed to be the economic engine of an ecosystem driven by Artificial Intelligence. Conceived and structured meticulously throughout 2025 (01/01/2025 - 12/31/2025), Luxor is born with the mission to strengthen the economy of the Western Hemisphere and consolidate the United States as the global capital of digital assets.\n\nTokenomics and Launch\nTotal Supply: 2.025 billion $LXR (Commemorative figure to the year of its structuring).\n\nFractional Units: The cents of Luxor are called LUX.\n\nOfficial Launch of $LXR: On May 4, 2026, at midnight, the main liquidity will be activated through the Meteora or Raydium protocols.\nFractional Ecosystem (LUX): The cents of Luxor, called LUX, function as a pegged asset and their trading initials will be LUX. To ensure dynamic distribution from the start, the launch of LUX will take place on the same day as the presale via the Pump.fun platform, allowing agile initial access to the project's economy.\n\nTransparency: The entire roadmap and technical fundamentals are available in our public repository for community auditing.\n\nUtility Ecosystem and Products\n$LXR is not just a currency; it is the access key to a suite of technological products developed by the project's sponsoring companies:\n\nRoosevelt AI (AI): An autonomous Artificial Intelligence agent integrated into Solana, capable of independently managing personal life and high-level business management.\n\nSmart Hardware: Advanced development of smart glasses with native integration to the Luxor ecosystem.\n\nGlobal Payment Gateway: A financial infrastructure designed for instant and secure transactions.\n\nThese products will be released in phases upon reaching specific milestones of $LXR per capita accumulation in the market.\n\nContinental Commitment\nLuxor is focused on the well-being and abundance of the entire American continent. We seek to forge a path to the technological future while respecting the cultural diversity of each nation, from north to south, promoting financial sovereignty based on the innovation and technological development of the West."
     }
 }

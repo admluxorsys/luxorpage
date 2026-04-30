@@ -48,7 +48,7 @@ export const Hero = ({ eyebrow, title, subtitle, ctaText, ctaLink }: HeroProps) 
 
     useEffect(() => {
         setIsMounted(true);
-        const targetDate = new Date('2026-05-01T00:00:00-06:00').getTime();
+        const targetDate = new Date('2026-05-04T00:00:00-06:00').getTime();
 
         const updateCountdown = () => {
             const now = new Date().getTime();
@@ -148,7 +148,6 @@ export const Hero = ({ eyebrow, title, subtitle, ctaText, ctaLink }: HeroProps) 
                     </div>
                 </motion.div>
 
-                {/* NEW Added Video/Countdown Component Layer */}
                 <motion.div 
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -226,11 +225,11 @@ export const Hero = ({ eyebrow, title, subtitle, ctaText, ctaLink }: HeroProps) 
 
                             {/* Additional Info / Links */}
                             <div className="mt-4 md:mt-5 flex flex-col items-center justify-center gap-1 opacity-90 group-hover:opacity-100 transition-opacity">
-                                <span className="text-[10px] md:text-[11px] font-medium text-white/90 drop-shadow-md tracking-wide">
-                                    Luxor <span className="text-white/40 mx-1">|</span> LXR Meteora
+                                <span className="text-[10px] md:text-[11px] font-medium text-white/90 drop-shadow-md tracking-wide uppercase">
+                                    Luxor <span className="text-white/40 mx-1">|</span> Meteora
                                 </span>
-                                <span className="text-[10px] md:text-[11px] font-medium text-white/90 drop-shadow-md tracking-wide">
-                                    Luxor Origin <span className="text-white/40 mx-1">|</span> LUX Pump.fun
+                                <span className="text-[10px] md:text-[11px] font-bold text-blue-400 drop-shadow-md tracking-[0.2em] uppercase">
+                                    LXR / USDC
                                 </span>
                             </div>
                         </div>

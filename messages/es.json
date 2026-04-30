@@ -230,19 +230,98 @@
         "stats_burn_title": "Artículo 3: Tarifas",
         "vaults": {
             "reserve": "Bóveda de Reserva",
-            "reserve_desc": "Banco central, liberación manual máx. 1% mensual",
-            "vesting": "Holding Principal (Vesting)",
-            "vesting_desc": "Vesting lineal 24 meses, acantilado 6 meses",
-            "ops": "Fondo de Operaciones",
-            "ops_desc": "Infraestructura y desarrollo",
-            "founder_lock": "Fondo Bloqueado Equipo",
-            "founder_lock_desc": "Bloqueado por 18 meses",
-            "liquid": "Holding Principal (Líquido)",
-            "liquid_desc": "Disponible de inmediato para operaciones estratégicas",
-            "liquidity": "Liquidez Inicial (Raydium)",
-            "liquidity_desc": "Pool inicial (bloqueado 24 meses)",
-            "personal": "Fondo Personal Equipo",
-            "personal_desc": "Desbloqueado (gastos operativos)"
+            "reserve_desc": "Banco central para la estabilidad del proyecto a largo plazo",
+            "investors": "Inversores Estratégicos",
+            "investors_desc": "Asignado para respaldo institucional y crecimiento",
+            "foundation": "Fundación Luxor",
+            "foundation_desc": "Desarrollo del ecosistema y subvenciones",
+            "ops_marketing": "Operaciones y Marketing",
+            "ops_marketing_desc": "Alcance global y mantenimiento de plataforma",
+            "founder_lock": "Bloqueo Equipo Fundador",
+            "founder_lock_desc": "Bloqueado por 24 meses (2 años)",
+            "meteora": "Lanzamiento Meteora",
+            "meteora_desc": "Liquidez inicial para entrada al mercado",
+            "airdrops": "Airdrops y Ventas",
+            "airdrops_desc": "Distribución comunitaria y eventos de liquidez",
+            "founder_ops": "Movimientos Fundador",
+            "founder_ops_desc": "Gastos operativos y viajes estratégicos"
+        },
+        "tech_specs": {
+            "title": "Reglas de Lanzamiento y Specs Técnicas",
+            "identity": {
+                "title": "Identidad Básica",
+                "network": "Red",
+                "standard": "Estándar",
+                "decimals": "Decimales",
+                "program_id": "ID del Programa",
+                "type": "Tipo",
+                "control": "Control"
+            },
+            "supply": {
+                "title": "Suministro Total (Inmutable)",
+                "total": "Suministro Total",
+                "fixed_note": "Fijo y no puede cambiar"
+            },
+            "excelsior": {
+                "title": "¿Qué es Excelsior?",
+                "subtitle": "Excelsior es el Contrato Inteligente que controla el token LXR.",
+                "brain": "El cerebro del token LXR",
+                "functions": [
+                    "Validar transacciones",
+                    "Aplicar tarifas (fees)",
+                    "Distribuir recompensas",
+                    "Protección contra bots",
+                    "Quemar tokens",
+                    "Gestionar vesting",
+                    "Controlar acceso"
+                ]
+            },
+            "fees": {
+                "title": "Sistema de Tarifas (100% On-Chain)",
+                "rule1": "Regla #1: Todas las transacciones tienen fees",
+                "rule2": "Regla #2: Distribución de Fees (30/30/40 Split)",
+                "variable": "Tarifa Variable",
+                "current": "Tarifa Actual",
+                "collector": "Recolector de Fees",
+                "split_xls": "Bóveda XLS (Soporte)",
+                "split_usdx": "Reserva USDX (Respaldo)",
+                "split_founder": "Equipo Fundador (Ops)"
+            },
+            "usage": {
+                "title": "¿Qué puedo hacer con LXR?",
+                "buy_sell": "Compra / Venta (DEX)",
+                "staking": "Staking (Ingreso Pasivo)",
+                "swap": "Canje (No Activo)",
+                "rewards": "Recibir Recompensas",
+                "governance": "Gobernanza (Futuro)"
+            },
+            "protections": {
+                "title": "Protecciones Anti-Bot (5 Capas)",
+                "layer1": "Capa 1: Ejecución Atómica y Bot Tax",
+                "layer1_desc": "Elimina el 70% de los bots simples al requerir creación de pool y compra en la misma transacción. Fallos penalizados con 50% de quema.",
+                "layer2": "Capa 2: Escalamiento Económico (7 Días)",
+                "layer2_phases": [
+                    { "name": "Fase 1 (0-24h)", "limit": "Max Billetera 0.5% | Max TX 0.2% | 60s Cooldown" },
+                    { "name": "Fase 2 (24-72h)", "limit": "Max Billetera 1% | Max TX 0.5% | 30s Cooldown" },
+                    { "name": "Fase 3 (72h-7d)", "limit": "Max Billetera 2% | Max TX 1% | 10s Cooldown" },
+                    { "name": "Fase 4 (7d+)", "limit": "Sin Límites" }
+                ],
+                "layer3": "Capa 3: Liquidez y Precio (5 Mins)",
+                "layer3_sniper": "Sniper Tax: 99% → 0% descenso lineal en 5 minutos.",
+                "layer3_slippage": "Slippage Guard: 5% (0-24h) → 10% (24-72h) → 20% (72h-7d).",
+                "layer4": "Capa 4: Verificación de Usuario",
+                "layer4_desc": "Whitelist (primeros 30m), verificación .sol y beneficios para holders de Seeker Genesis NFT.",
+                "layer5": "Capa 5: Monitoreo Activo",
+                "layer5_desc": "Detección ML, monitoreo de ballenas y Circuit Breaker manual para anomalías críticas."
+            },
+            "economy": {
+                "title": "Tokenomics y Economía",
+                "inflation": "Inflación (2.5% cada 5 años)",
+                "burning": "Quemas (Manual y Automática)",
+                "vesting_detail": "Vesting: 10% TGE, 6 meses cliff, 24 meses de desbloqueo lineal.",
+                "multisig": "Seguridad y Gobernanza",
+                "multisig_desc": "Todas las bóvedas están controladas por un Squads Multisig (consenso 3 de 6). Ninguna entidad puede mover fondos sin aprobación."
+            }
         },
         "fee_items": {
             "xls": "Bóveda XLS",
@@ -418,6 +497,6 @@
     },
     "Metadata": {
         "title": "Luxor (LXR) | The Intelligence of Value",
-        "description": "Visión General\nLuxor ($LXR) es un token de utilidad de nueva generación desplegado en la red Solana, diseñado para ser el motor económico de un ecosistema impulsado por Inteligencia Artificial. Concebido y estructurado meticulosamente durante todo el año 2025 (01/01/2025 - 31/12/2025), Luxor nace con la misión de fortalecer la economía del hemisferio occidental y consolidar a los Estados Unidos como la capital mundial de los activos digitales.\n\nTokenomics y Lanzamiento\nSuministro Total: 2.025 billones de $LXR (Cifra conmemorativa al año de su estructuración).\n\nUnidades Fraccionarias: Los centavos de Luxor se denominan LUX.\n\nLanzamiento Oficial de $LXR: El 1 de mayo de 2026, a la media noche, se activará la liquidez principal a través de los protocolos Meteora o Raydium.\nEcosistema Fraccionario (LUX): Los centavos de Luxor, denominados LUX, funcionan como un activo vinculado y sus iniciales de trading serán LUX. Para garantizar una distribución dinámica desde el primer momento, el lanzamiento de LUX se realizará el mismo día de la preventa mediante la plataforma Pump.fun, permitiendo un acceso inicial ágil a la economía del proyecto.\n\nTransparencia: Toda la hoja de ruta y los fundamentos técnicos están disponibles en nuestro repositorio público para auditoría de la comunidad.\n\nEcosistema de Utilidad y Productos\n$LXR no es solo una moneda; es la llave de acceso a una suite de productos tecnológicos desarrollados por las empresas patrocinadoras del proyecto:\n\nRoosevelt AI (IA): Un agente de Inteligencia Artificial autónomo integrado en Solana, capaz de administrar de forma independiente la vida personal y la gestión empresarial de alto nivel.\n\nHardware Inteligente: Desarrollo avanzado de gafas inteligentes con integración nativa al ecosistema Luxor.\n\nPasarela de Pagos Global: Una infraestructura financiera diseñada para transacciones instantáneas y seguras.\n\nEstos productos serán liberados de manera escalonada al alcanzarse hitos específicos de acumulación per cápita de $LXR en el mercado.\n\nCompromiso Continental\nLuxor está enfocado en el bienestar y la abundancia de todo el continente americano. Buscamos trazar un camino hacia el futuro tecnológico respetando la diversidad cultural de cada nación, desde el norte hasta el sur, promoviendo una soberanía financiera basada en la innovación y el desarrollo tecnológico del Occidente."
+        "description": "Visión General\nLuxor ($LXR) es un token de utilidad de nueva generación desplegado en la red Solana, diseñado para ser el motor económico de un ecosistema impulsado por Inteligencia Artificial. Concebido y estructurado meticulosamente durante todo el año 2025 (01/01/2025 - 31/12/2025), Luxor nace con la misión de fortalecer la economía del hemisferio occidental y consolidar a los Estados Unidos como la capital mundial de los activos digitales.\n\nTokenomics y Lanzamiento\nSuministro Total: 2.025 billones de $LXR (Cifra conmemorativa al año de su estructuración).\n\nUnidades Fraccionarias: Los centavos de Luxor se denominan LUX.\n\nLanzamiento Oficial de $LXR: El 4 de mayo de 2026, a la media noche, se activará la liquidez principal a través de los protocolos Meteora o Raydium.\nEcosistema Fraccionario (LUX): Los centavos de Luxor, denominados LUX, funcionan como un activo vinculado y sus iniciales de trading serán LUX. Para garantizar una distribución dinámica desde el primer momento, el lanzamiento de LUX se realizará el mismo día de la preventa mediante la plataforma Pump.fun, permitiendo un acceso inicial ágil a la economía del proyecto.\n\nTransparencia: Toda la hoja de ruta y los fundamentos técnicos están disponibles en nuestro repositorio público para auditoría de la comunidad.\n\nEcosistema de Utilidad y Productos\n$LXR no es solo una moneda; es la llave de acceso a una suite de productos tecnológicos desarrollados por las empresas patrocinadoras del proyecto:\n\nRoosevelt AI (IA): Un agente de Inteligencia Artificial autónomo integrado en Solana, capaz de administrar de forma independiente la vida personal y la gestión empresarial de alto nivel.\n\nHardware Inteligente: Desarrollo avanzado de gafas inteligentes con integración nativa al ecosistema Luxor.\n\nPasarela de Pagos Global: Una infraestructura financiera diseñada para transacciones instantáneas y seguras.\n\nEstos productos serán liberados de manera escalonada al alcanzarse hitos específicos de acumulación per cápita de $LXR en el mercado.\n\nCompromiso Continental\nLuxor está enfocado en el bienestar y la abundancia de todo el continente americano. Buscamos trazar un camino hacia el futuro tecnológico respetando la diversidad cultural de cada nación, desde el norte hasta el sur, promoviendo una soberanía financiera basada en la innovación y el desarrollo tecnológico del Occidente."
     }
 }
